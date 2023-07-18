@@ -82,9 +82,19 @@ body {
 .banner-text {
   width: 50%;
 }
+.banner-text p {
+    color: #0b0223;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    
+  }
 .banner-text h2 {
   font-family: Work Sans;
-  font-size: 4rem;
+  font-size: 5rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -95,16 +105,7 @@ body {
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
 }
-.banner-text p {
-  color: #0b0223;
-  font-family: Work Sans;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-transform: uppercase;
-  text-decoration: none;
-}
+
 
 .banner-text-point p {
   color: #534c64;
@@ -118,15 +119,14 @@ body {
 }
 .btn-banner {
    
-    
   border-radius: 3rem;
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
   display: inline-flex;
   padding: 1rem 3rem;
   align-items: flex-start;
-
   border: none;
-  margin-top: 1.5rem;}
+  margin-top: 1.5rem;
+}
  
 .button {
   background: #4ec5f7;
@@ -158,3 +158,66 @@ body {
 }
 
 /* banner styles end here */
+
+/* position based banner styles starts here */
+
+.design-banner-container{
+   
+    
+    max-width: 80%;
+    margin: 4rem auto;
+    display: flex;
+   align-items: center;
+
+}
+.design-banner-text{
+   
+    width: 50%;
+    margin-right: 8rem;
+    
+
+}
+.design-banner-text h3{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem;
+    text-align: end;
+    margin-bottom: 1rem;
+}
+.design-banner-text p{
+    width: 80%;
+    margin-left: 20%;
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 200;
+line-height: 1.875rem; /* 166.667% */
+}
+.design-banner-img{
+    
+    width: 50%;
+    position: relative;
+    
+
+}
+.design-banner-img img{
+    width: 100%;
+    
+    
+}
+#woman-img{
+    
+    width: 10rem;
+    height: 12rem;
+    position: absolute;
+    bottom:-10%;
+    left:-13%;
+    
+}
+
+/* position based banner styles ends here */
