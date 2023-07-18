@@ -20,7 +20,14 @@
     .menus-container a{
         margin: 1rem;
     }
-    
+    .banner-container {
+        flex-direction: column;
+    }
+    .banner-container  :nth-child(1){order: 2;}
+    .banner-container  :nth-child(2){order: 1;}
+    .banner-img{
+        width: 100%;
+    }
     
     
 }
