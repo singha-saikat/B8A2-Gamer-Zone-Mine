@@ -1,0 +1,37 @@
+
+/* resposive styles for mobile deveice */
+
+@media screen and (max-width:425px){
+    .nav-container{
+        width: 100%;
+        flex-direction: column;
+         margin: 2rem auto;
+    }
+    .logo-container {
+        width: 100%;
+        justify-content: center;
+        margin: 1rem auto;
+    }
+    .menus-container{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .menus-container a{
+        margin: 1rem;
+    }
+    
+    
+    
+}
+
+/* Responsive styles for Tablet */
+@media screen and (min-width:425px) and (max-width:800px){
+    .nav-container{
+        width: 100%;
+        margin: 2rem auto;
+    }
+    .btn {
+        width: 8rem;
+      }
+}
