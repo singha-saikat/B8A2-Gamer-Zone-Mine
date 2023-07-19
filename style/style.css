@@ -67,12 +67,8 @@ body {
 /* banner styles starts here */
 
 .banner {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 66, 165, 0.03) 0%,
-    rgba(255, 66, 165, 0.03) 100%
-  );
-}
+  background-image: url(./Group\ 14.png);
+  }
 .banner-container {
   max-width: 80%;
   margin: 0 auto;
@@ -83,15 +79,18 @@ body {
   width: 50%;
 }
 .banner-text p {
+  text-align: start;
   color: #0b0223;
   font-family: Work Sans;
-  font-size: 3rem;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   text-transform: uppercase;
+
 }
 .banner-text h2 {
+  text-align: start;
   font-family: Work Sans;
   font-size: 5rem;
   font-style: normal;
@@ -114,6 +113,9 @@ body {
   line-height: normal;
   text-transform: lowercase;
   margin-bottom: 0.5rem;
+}
+.btn-banner{
+  text-align: start;
 }
 .btn-banner button {
   padding: 1rem 2rem;
@@ -149,6 +151,7 @@ body {
 }
 
 /* banner styles end here */
+
 
 /* online games funny videos section  styles starts here */
 
@@ -297,19 +300,19 @@ body {
 .game-genres-container {
   max-width: 80%;
   min-height: 24rem;
-  margin: 0 auto;
+  margin:  auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
-  justify-content: center;
-  align-content: center;
+  place-items: center;
   padding: 1rem;
 }
 .game-genres-box {
-  display: flex;
+  display:flex;
+  justify-content: center;
   align-items: center;
   background-color: #ffffff;
   border-radius: 3.125rem;
+  gap: 1rem;
   /* border: none; */
 }
 .game-genres-box:hover {
