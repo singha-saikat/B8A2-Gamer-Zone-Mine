@@ -75,9 +75,27 @@
         font-size: 0.7rem;
     }
     .footer-container{
-        width: 100%;
+        width: 90%;
+        
     }
-    
+    .logo-redesign{
+        margin: 2rem auto;
+        width: 100%;
+        
+    }
+    .tittle-footer {
+        flex-wrap: wrap;
+    }
+    .icon-footer {
+        flex-wrap: wrap;
+    }
+    .terms-condition {
+        flex-wrap: wrap;
+    }
+    .copy-right{
+        padding-bottom: 3rem;
+        text-align: center;
+    }
 }
 
 /* Responsive styles for Tablet */
