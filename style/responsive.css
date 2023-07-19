@@ -64,6 +64,7 @@
     }
     .game-genres-box{
      border-radius: 2rem;
+     width: 100%;
 
     }
     .game-genres-box img{
@@ -72,6 +73,9 @@
     }
     .game-genres-box p{
         font-size: 0.7rem;
+    }
+    .footer-container{
+        width: 100%;
     }
     
 }
@@ -98,4 +102,11 @@
         font-size: 0.9rem;
         
     }
+    .game-genres-container{
+        width: 100%;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 0.6rem;
+    }
+    
 }
