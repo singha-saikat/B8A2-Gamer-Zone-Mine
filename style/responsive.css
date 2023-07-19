@@ -49,6 +49,16 @@
         font-size: 0.9rem;
         
     }
+    .btn-banner{
+        gap: 1rem;
+        flex-direction: row-reverse;
+       
+    }
+    .btn-banner button {
+        padding: 1rem ;
+        margin: 0 auto;
+        
+    }
     .design-banner-img{
         width: 70%;
         margin: 0 auto;
@@ -61,10 +71,12 @@
         width: 100%;
         grid-template-columns: repeat(2,1fr);
         gap: 0.3rem;
+        
     }
     .game-genres-box{
      border-radius: 2rem;
      width: 100%;
+     margin-left: -1.3rem;
 
     }
     .game-genres-box img{
