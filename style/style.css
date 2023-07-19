@@ -117,21 +117,16 @@ body {
   text-transform: lowercase;
   margin-bottom: 0.5rem;
 }
-.btn-banner {
-   
+.btn-banner button{
+  
+  padding: 1rem 2rem;
   border-radius: 3rem;
-  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
-  display: inline-flex;
-  padding: 1rem 3rem;
-  align-items: flex-start;
+  background-color: #ff42a5;
   border: none;
   margin-top: 1.5rem;
 }
  
-.button {
-  background: #4ec5f7;
-  margin-left: 1.5rem;
-}
+
 .banner-img {
   width: 50%;
 }
@@ -221,3 +216,58 @@ line-height: 1.875rem; /* 166.667% */
 }
 
 /* position based banner styles ends here */
+
+/* different type of  game genres section styles starts here */
+  
+  .game-box-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    max-height: 24rem;
+    margin-top: 7rem;
+    
+  }
+
+
+  .game-genres-container{
+    
+    border: 3px solid salmon;
+    max-width: 80%;
+    min-height: 24rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+
+  }
+  .game-genres-box{
+    
+    display: flex;
+    
+    align-items: center;
+    background-color:#FFFFFF;
+    border-radius: 3.125rem;
+    /* border: none; */
+  }
+  .game-genres-box:hover{
+    cursor: pointer;
+    border: 1px solid #FF42A5;
+    border-radius: 3.125rem;
+
+  }
+  .game-genres-box img{
+    padding: 1rem;
+  }
+  .game-genres-box p{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+
+
+
+/* different type of  game genres section  styles ends here */

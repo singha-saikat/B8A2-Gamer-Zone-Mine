@@ -57,6 +57,22 @@
         width: 5rem;
         height: 6rem;
     }
+    .game-genres-container{
+        width: 100%;
+        grid-template-columns: repeat(3,1fr);
+        gap: 0.3rem;
+    }
+    .game-genres-box{
+     border-radius: 2rem;
+
+    }
+    .game-genres-box img{
+
+        padding: 0.2rem;
+    }
+    .game-genres-box p{
+        font-size: 0.7rem;
+    }
     
 }
 
